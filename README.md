@@ -8,7 +8,7 @@ Ce projet Symfony fournit le backend pour la gestion des contacts, incluant des 
 
 ### Prérequis
 
-- PHP (version >= 8.0)
+- PHP (version >= 8.2)
 - Composer
 - MySQL
 
