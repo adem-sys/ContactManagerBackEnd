@@ -64,6 +64,12 @@ Ce projet Symfony fournit le backend pour la gestion des contacts, incluant des 
       ```bash
       php bin/console doctrine:schema:update --env=test --force
       ```
+    - **Si le fichier `.env.test` n'existe pas**, vous devrez créer ce fichier et y configurer les paramètres de la base de données de test. Vous pouvez copier le fichier `.env` en tant que modèle et adapter les valeurs pour la base de données de test. Voici un exemple de ce à quoi pourrait ressembler le fichier `.env.test` :
+      ```dotenv
+      DATABASE_URL="mysql://user:password@localhost:3306/test_db"
+      ```
+
+Assurez-vous que les informations de connexion à la base de données sont correctes et que la base de données de test est créée avant d'exécuter les commandes ci-dessus.
 
 ### Documentation du Contrôleur Contact
 
